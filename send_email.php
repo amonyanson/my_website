@@ -1,4 +1,5 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $to = "ansonosembo@gmail.com"; // your Gmail account
   $subject = "Contact Form Submission";
   $name = $_POST['name'];
@@ -21,4 +22,10 @@
 
   header("Location: contact.html?sent=true");
   exit;
+}
+else {
+  //Handle the other request methods (e.g., GET, PUT, DELETE)
+  http_response_code(405);
+  echo 'Method Not Allowed'
+}
 ?>
