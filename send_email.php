@@ -1,5 +1,5 @@
 <?php
-  $to = "amonianson@gmail.com"; // your Gmail account
+  $to = "ansonosembo@gmail.com"; // your Gmail account
   $subject = "Contact Form Submission";
   $name = $_POST['name'];
   $email = $_POST['email'];
