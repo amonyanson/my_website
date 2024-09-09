@@ -227,7 +227,25 @@ textarea {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* footer */
+.tm-site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.social-media-links {
+    margin-top: 20px;
+  }
+  
+  .social-media-links a {
+    margin-right: 20px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .social-media-links a:hover {
+    color: #ccc;
+  }
 .form-control::-webkit-input-placeholder { color: white; } /* Edge */  
 .form-control:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */  
 .form-control::placeholder { color: white; }
