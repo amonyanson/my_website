@@ -246,6 +246,33 @@ textarea {
   .social-media-links a:hover {
     color: #ccc;
   }
+/*socials*/
+/* Add this code to the end of the file */
+
+.social-media-links {
+    font-size: 24px; /* increase font size */
+    padding: 20px; /* add some padding to the list */
+    text-align: center; /* center the list */
+  }
+  
+  .social-media-links li {
+    display: inline-block; /* make list items inline-block */
+    margin: 10px; /* add some margin between list items */
+    padding: 10px; /* add some padding to the list items */
+    background-color: #f7f7f7; /* add a light gray background color */
+    border-radius: 5px; /* add a rounded corner effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow effect */
+  }
+  
+  .social-media-links a {
+    font-size: 36px; /* increase icon size */
+    color: #333; /* change icon color to a darker shade */
+    transition: color 0.2s ease; /* add a transition effect */
+  }
+  
+  .social-media-links a:hover {
+    color: #666; /* change icon color on hover */
+  }
 .form-control::-webkit-input-placeholder { color: white; } /* Edge */  
 .form-control:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */  
 .form-control::placeholder { color: white; }
