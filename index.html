@@ -6,6 +6,60 @@ This BG is 50% transparent.
 You can set the background images auto play settings 
 (true or false in line number 33) 
 in templatemo-script.js file in js folder.
+
+To change the background images of your website, you can follow these steps:
+
+Step 1: Update the templatemo-script.js file
+
+In the templatemo-script.js file, locate the section that controls the background images. This might be a JavaScript object or an array that defines the image sources, animation settings, and other related options.
+
+For example, you might find something like this:
+
+javascript
+Edit
+Copy code
+var bgImages = [
+  'img/bg-image-1.jpg',
+  'img/bg-image-2.jpg',
+  'img/bg-image-3.jpg'
+];
+Update the image sources to point to your new images in the img folder. For example:
+
+javascript
+Edit
+Copy code
+var bgImages = [
+  'img/new-bg-image-1.jpg',
+  'img/new-bg-image-2.jpg',
+  'img/new-bg-image-3.jpg'
+];
+Step 2: Update the CSS files
+
+In the css/templatemo-diagoona.css file, locate the CSS rules that target the background image elements (e.g., .tm-bg, .tm-bg-left, .tm-bg-right). Update the background-image properties to point to your new images.
+
+For example:
+
+css
+Edit
+Copy code
+.tm-bg {
+  background-image: url('img/new-bg-image-1.jpg');
+}
+
+.tm-bg-left {
+  background-image: url('img/new-bg-image-2.jpg');
+}
+
+.tm-bg-right {
+  background-image: url('img/new-bg-image-3.jpg');
+}
+Step 3: Refresh your website
+
+Save both the templatemo-script.js and css/templatemo-diagoona.css files. Then, refresh your website or clear the browser cache to see the changes take effect.
+
+By following these steps, you should be able to update the background images of your website in real-time.
+
+Remember to replace new-bg-image-1.jpg, new-bg-image-2.jpg, and new-bg-image-3.jpg with the actual file names and paths of your new background images in the img folder.
 -->
 <head>
     <meta charset="UTF-8">
